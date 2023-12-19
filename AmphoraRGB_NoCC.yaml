@@ -1,0 +1,10 @@
+val: C:\Users\ethan\OneDrive\VisualCodeProjects\Uni\MSc\UOD\amphora\yolo-rescaled\val\images
+test: C:\Users\ethan\OneDrive\VisualCodeProjects\Uni\MSc\UOD\amphora\yolo-rescaled\test\images
+train: C:\Users\ethan\OneDrive\VisualCodeProjects\Uni\MSc\UOD\amphora\yolo-rescaled\train\images
+
+
+# number of classes
+nc: 1
+
+# class names
+names: ['z']

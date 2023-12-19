@@ -541,11 +541,19 @@ def plot_images(images,
         x, y = int(w * (i // ns)), int(h * (i % ns))  # block origin
         im = im.transpose(1, 2, 0)
         
-        (G, B, D, R) = cv2.split(im)
-        merged = cv2.merge([R, G, B])
-        mosaic[y:y + h, x:x + w, :] = merged
+        is4Channel = False
+        if im.shape[2] == 4:
+            is4Channel = True
+
+        if is4Channel:         
+            (G, B, D, R) = cv2.split(im)
+            merged = cv2.merge([R, G, B])
+            mosaic[y:y + h, x:x + w, :] = merged
+        else:
+            mosaic[y:y + h, x:x + w, :] = im
+            
+            
         
-        # mosaic[y:y + h, x:x + w, :] = im
 
     # Resize (optional)
     scale = max_size / ns / max(h, w)

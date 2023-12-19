@@ -7,16 +7,17 @@ from ultralytics import YOLO
 # model = YOLO("yolov8n.pt")  # load a pretrained model (recommended for training)
 if __name__ == "__main__":
     # Load a model
-    model = YOLO("yolov8-rgbd.yaml")
+    model = YOLO("yolov8-rgb.yaml")
     # Use the model
     res = 1024
     batch_size = 8
     model.train(
-        data="AmphoraRGBDNoCc.yaml",
+        data="AmphoraRGB_NoCC.yaml",
         epochs=300,
         imgsz=res,
         resume=False,
         batch=batch_size,  # train 300 epochs
+        name="RGB-SomeAugments-NoCC-1024_batch8__",
     )
     metrics = model.val()  # evaluate model performance on the validation set
     # results = model("https://ultralytics.com/images/bus.jpg")  # predict on an image
