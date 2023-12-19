@@ -540,7 +540,12 @@ def plot_images(images,
             break
         x, y = int(w * (i // ns)), int(h * (i % ns))  # block origin
         im = im.transpose(1, 2, 0)
-        mosaic[y:y + h, x:x + w, :] = im
+        
+        (G, B, D, R) = cv2.split(im)
+        merged = cv2.merge([R, G, B])
+        mosaic[y:y + h, x:x + w, :] = merged
+        
+        # mosaic[y:y + h, x:x + w, :] = im
 
     # Resize (optional)
     scale = max_size / ns / max(h, w)
