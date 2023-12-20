@@ -1,0 +1,10 @@
+val: E:\MSc\Dissertation\BDepthR_Merged_Grayscale 16-bit\val\images
+test: E:\MSc\Dissertation\BDepthR_Merged_Grayscale 16-bit\test\images
+train: E:\MSc\Dissertation\BDepthR_Merged_Grayscale 16-bit\train\images
+
+
+# number of classes
+nc: 1
+
+# class names
+names: ['z']

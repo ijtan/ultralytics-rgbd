@@ -7,17 +7,17 @@ from ultralytics import YOLO
 # model = YOLO("yolov8n.pt")  # load a pretrained model (recommended for training)
 if __name__ == "__main__":
     # Load a model
-    model = YOLO("yolov8-rgbd.yaml")
+    model = YOLO("yolov8-rgb.yaml")
     # Use the model
     res = 1024
     batch_size = 8
     model.train(
-        data="AmphoraRGBDNoCc.yaml",
+        data="AmphoraBDepthRNoCc.yaml",
         epochs=300,
         imgsz=res,
         resume=False,
         batch=batch_size,  # train 300 epochs
-        name="RGBD-SomeAugments-NoCC-1024_batch8__",
+        name="BDepthR-NoAugments-NoCC-1024_batch8__",
         augment=True,
     )
     metrics = model.val()  # evaluate model performance on the validation set

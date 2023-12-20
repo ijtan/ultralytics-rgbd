@@ -546,7 +546,7 @@ def plot_images(images,
             is4Channel = True
 
         if is4Channel:         
-            (G, B, D, R) = cv2.split(im)
+            (G, B, R, D) = cv2.split(im)
             merged = cv2.merge([R, G, B])
             mosaic[y:y + h, x:x + w, :] = merged
         else:

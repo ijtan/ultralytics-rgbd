@@ -12,12 +12,12 @@ if __name__ == "__main__":
     res = 1024
     batch_size = 8
     model.train(
-        data="AmphoraDepthGRNoCc.yaml",
+        data="AmphoraBGDepthNoCc.yaml",
         epochs=300,
         imgsz=res,
         resume=False,
         batch=batch_size,  # train 300 epochs
-        name="DepthGR-NoAugments-NoCC-1024_batch8__",
+        name="BGDepth-NoAugments-NoCC-1024_batch8__",
         augment=True,
     )
     metrics = model.val()  # evaluate model performance on the validation set
