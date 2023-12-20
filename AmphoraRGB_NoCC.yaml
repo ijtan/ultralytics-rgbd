@@ -3,6 +3,10 @@ test: C:\Users\ethan\OneDrive\VisualCodeProjects\Uni\MSc\UOD\amphora\yolo-rescal
 train: C:\Users\ethan\OneDrive\VisualCodeProjects\Uni\MSc\UOD\amphora\yolo-rescaled\train\images
 
 
+
+val: /opt/users/ezam0038/MSc/data/amphora/yolo-rescaled/val/images
+test: /opt/users/ezam0038/MSc/data/amphora/yolo-rescaled/test/images
+train: /opt/users/ezam0038/MSc/data/UOD/amphora/yolo-rescaled/train/images
 # number of classes
 nc: 1
 
