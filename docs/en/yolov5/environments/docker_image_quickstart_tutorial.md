@@ -4,7 +4,7 @@ description: Learn how to set up and run YOLOv5 in a Docker container. This tuto
 keywords: YOLOv5, Docker, Ultralytics, Image Detection, YOLOv5 Docker Image, Docker Container, Machine Learning, AI
 ---
 
-# Get Started with YOLOv5 🚀 in Docker
+# Get Started with YOLOv5 (rocket_emoji) in Docker
 
 This tutorial will guide you through the process of setting up and running YOLOv5 in a Docker container.
 
@@ -50,7 +50,7 @@ To run a container with GPU access, use the `--gpus all` flag:
 sudo docker run --ipc=host -it --gpus all ultralytics/yolov5:latest
 ```
 
-## Step 3: Use YOLOv5 🚀 within the Docker Container
+## Step 3: Use YOLOv5 (rocket_emoji) within the Docker Container
 
 Now you can train, test, detect, and export YOLOv5 models within the running Docker container:
 

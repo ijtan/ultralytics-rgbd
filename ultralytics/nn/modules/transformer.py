@@ -1,4 +1,4 @@
-# Ultralytics YOLO 🚀, AGPL-3.0 license
+# Ultralytics YOLO (rocket_emoji), AGPL-3.0 license
 """Transformer modules."""
 
 import math

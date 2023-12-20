@@ -21,7 +21,7 @@ keywords: Ultralytics, 文档, YOLO, SAM, MobileSAM, FastSAM, YOLO-NAS, RT-DETR,
 3. **[YOLOv5](yolov5.md)**：Ultralytics 改进的 YOLO 架构版本，与先前版本相比，提供了更好的性能和速度权衡。
 4. **[YOLOv6](yolov6.md)**：由[美团](https://about.meituan.com/)在 2022 年发布，用于公司多个自主送货机器人中。
 5. **[YOLOv7](yolov7.md)**：YOLOv4 作者在 2022 年发布的更新版 YOLO 模型。
-6. **[YOLOv8](yolov8.md) NEW 🚀**：YOLO 家族的最新版本，具备实例分割、姿态/关键点估计和分类等增强能力。
+6. **[YOLOv8](yolov8.md) NEW (rocket_emoji)**：YOLO 家族的最新版本，具备实例分割、姿态/关键点估计和分类等增强能力。
 7. **[Segment Anything Model (SAM)](sam.md)**：Meta 的 Segment Anything Model (SAM)。
 8. **[Mobile Segment Anything Model (MobileSAM)](mobile-sam.md)**：由庆熙大学开发的移动应用 MobileSAM。
 9. **[Fast Segment Anything Model (FastSAM)](fast-sam.md)**：中国科学院自动化研究所图像与视频分析组开发的 FastSAM。

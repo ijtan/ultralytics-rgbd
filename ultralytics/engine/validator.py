@@ -1,4 +1,4 @@
-# Ultralytics YOLO 🚀, AGPL-3.0 license
+# Ultralytics YOLO (rocket_emoji), AGPL-3.0 license
 """
 Check a model's accuracy on a test or val split of a dataset.
 

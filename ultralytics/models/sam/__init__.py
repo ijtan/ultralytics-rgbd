@@ -1,4 +1,4 @@
-# Ultralytics YOLO 🚀, AGPL-3.0 license
+# Ultralytics YOLO (rocket_emoji), AGPL-3.0 license
 
 from .model import SAM
 from .predict import Predictor

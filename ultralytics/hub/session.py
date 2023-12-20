@@ -1,4 +1,4 @@
-# Ultralytics YOLO 🚀, AGPL-3.0 license
+# Ultralytics YOLO (rocket_emoji), AGPL-3.0 license
 
 import signal
 import sys
@@ -74,7 +74,7 @@ class HUBTrainingSession:
         self.alive = True
         self._start_heartbeat()  # start heartbeats
         self._register_signal_handlers()
-        LOGGER.info(f'{PREFIX}View model at {self.model_url} 🚀')
+        LOGGER.info(f'{PREFIX}View model at {self.model_url} (rocket_emoji)')
 
     def _register_signal_handlers(self):
         """Register signal handlers for SIGTERM and SIGINT signals to gracefully handle termination."""
@@ -110,7 +110,7 @@ class HUBTrainingSession:
             data = response.json().get('data', None)
 
             if data.get('status', None) == 'trained':
-                raise ValueError(emojis(f'Model is already trained and uploaded to {self.model_url} 🚀'))
+                raise ValueError(emojis(f'Model is already trained and uploaded to {self.model_url} (rocket_emoji)'))
 
             if not data.get('data', None):
                 raise ValueError('Dataset may still be processing. Please wait a minute and try again.')  # RF fix

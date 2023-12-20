@@ -4,7 +4,7 @@ description: Advanced Data Visualization with Ultralytics YOLOv8 Heatmaps
 keywords: Ultralytics, YOLOv8, Advanced Data Visualization, Heatmap Technology, Object Detection and Tracking, Jupyter Notebook, Python SDK, Command Line Interface
 ---
 
-# Advanced Data Visualization: Heatmaps using Ultralytics YOLOv8 🚀
+# Advanced Data Visualization: Heatmaps using Ultralytics YOLOv8 (rocket_emoji)
 
 ## Introduction to Heatmaps
 

@@ -21,7 +21,7 @@ Ultralyticsのモデルドキュメントへようこそ！我々は、[オブ�
 3. **[YOLOv5](yolov5.md)**：UltralyticsによるYOLOアーキテクチャの改良版で、以前のバージョンと比較してパフォーマンスと速度のトレードオフが向上しています。
 4. **[YOLOv6](yolov6.md)**：2022年に[美団](https://about.meituan.com/)によってリリースされ、同社の多数の自動配送ロボットで使用されています。
 5. **[YOLOv7](yolov7.md)**：YOLOv4の著者によって2022年にリリースされたYOLOモデルのアップデートです。
-6. **[YOLOv8](yolov8.md) 新機能 🚀**：YOLOファミリーの最新バージョンで、例えばインスタンスセグメンテーション、ポーズ/キーポイント推定、分類などの機能が強化されています。
+6. **[YOLOv8](yolov8.md) 新機能 (rocket_emoji)**：YOLOファミリーの最新バージョンで、例えばインスタンスセグメンテーション、ポーズ/キーポイント推定、分類などの機能が強化されています。
 7. **[Segment Anything Model (SAM)](sam.md)**：MetaのSegment Anything Model (SAM)です。
 8. **[Mobile Segment Anything Model (MobileSAM)](mobile-sam.md)**：慶應義塾大学によるモバイルアプリケーションのためのMobileSAMです。
 9. **[Fast Segment Anything Model (FastSAM)](fast-sam.md)**：中国科学院自動化研究所、画像及びビデオ解析グループのFastSAMです。

@@ -6,7 +6,7 @@ keywords: Ultralytics, YOLOv5, model export, PyTorch, TorchScript, ONNX, OpenVIN
 
 # TFLite, ONNX, CoreML, TensorRT Export
 
-📚 This guide explains how to export a trained YOLOv5 🚀 model from PyTorch to ONNX and TorchScript formats.
+📚 This guide explains how to export a trained YOLOv5 (rocket_emoji) model from PyTorch to ONNX and TorchScript formats.
 
 ## Before You Start
 
@@ -54,7 +54,7 @@ python benchmarks.py --weights yolov5s.pt --imgsz 640 --device 0
 ```
 benchmarks: weights=/content/yolov5/yolov5s.pt, imgsz=640, batch_size=1, data=/content/yolov5/data/coco128.yaml, device=0, half=False, test=False
 Checking setup...
-YOLOv5 🚀 v6.1-135-g7926afc torch 1.10.0+cu111 CUDA:0 (Tesla V100-SXM2-16GB, 16160MiB)
+YOLOv5 (rocket_emoji) v6.1-135-g7926afc torch 1.10.0+cu111 CUDA:0 (Tesla V100-SXM2-16GB, 16160MiB)
 Setup complete ✅ (8 CPUs, 51.0 GB RAM, 46.7/166.8 GB disk)
 
 Benchmarks complete (458.07s)
@@ -77,7 +77,7 @@ Benchmarks complete (458.07s)
 ```
 benchmarks: weights=/content/yolov5/yolov5s.pt, imgsz=640, batch_size=1, data=/content/yolov5/data/coco128.yaml, device=cpu, half=False, test=False
 Checking setup...
-YOLOv5 🚀 v6.1-135-g7926afc torch 1.10.0+cu111 CPU
+YOLOv5 (rocket_emoji) v6.1-135-g7926afc torch 1.10.0+cu111 CPU
 Setup complete ✅ (8 CPUs, 51.0 GB RAM, 41.5/166.8 GB disk)
 
 Benchmarks complete (241.20s)
@@ -109,7 +109,7 @@ Output:
 
 ```bash
 export: data=data/coco128.yaml, weights=['yolov5s.pt'], imgsz=[640, 640], batch_size=1, device=cpu, half=False, inplace=False, train=False, keras=False, optimize=False, int8=False, dynamic=False, simplify=False, opset=12, verbose=False, workspace=4, nms=False, agnostic_nms=False, topk_per_class=100, topk_all=100, iou_thres=0.45, conf_thres=0.25, include=['torchscript', 'onnx']
-YOLOv5 🚀 v6.2-104-ge3e5122 Python-3.8.0 torch-1.12.1+cu113 CPU
+YOLOv5 (rocket_emoji) v6.2-104-ge3e5122 Python-3.8.0 torch-1.12.1+cu113 CPU
 
 Downloading https://github.com/ultralytics/yolov5/releases/download/v6.2/yolov5s.pt to yolov5s.pt...
 100% 14.1M/14.1M [00:00<00:00, 274MB/s]

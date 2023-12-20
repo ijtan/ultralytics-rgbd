@@ -1,4 +1,4 @@
-# Ultralytics YOLO 🚀, AGPL-3.0 license
+# Ultralytics YOLO (rocket_emoji), AGPL-3.0 license
 
 name: Close stale issues
 on:
@@ -24,7 +24,7 @@ jobs:
 
             Feel free to inform us of any other **issues** you discover or **feature requests** that come to mind in the future. Pull Requests (PRs) are also always welcomed!
 
-            Thank you for your contributions to YOLO 🚀 and Vision AI ⭐
+            Thank you for your contributions to YOLO (rocket_emoji) and Vision AI ⭐
 
           stale-pr-message: |
             👋 Hello there! We wanted to let you know that we've decided to close this pull request due to inactivity. We appreciate the effort you put into contributing to our project, but unfortunately, not all contributions are suitable or aligned with our product roadmap.
@@ -37,7 +37,7 @@ jobs:
             - **HUB**: https://hub.ultralytics.com
             - **Community**: https://community.ultralytics.com
 
-            Thank you for your contributions to YOLO 🚀 and Vision AI ⭐
+            Thank you for your contributions to YOLO (rocket_emoji) and Vision AI ⭐
 
           days-before-issue-stale: 30
           days-before-issue-close: 10

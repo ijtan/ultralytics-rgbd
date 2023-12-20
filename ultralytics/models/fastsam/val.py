@@ -1,4 +1,4 @@
-# Ultralytics YOLO 🚀, AGPL-3.0 license
+# Ultralytics YOLO (rocket_emoji), AGPL-3.0 license
 
 from ultralytics.models.yolo.segment import SegmentationValidator
 from ultralytics.utils.metrics import SegmentMetrics

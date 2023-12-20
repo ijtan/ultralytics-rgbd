@@ -4,7 +4,7 @@ description: Azure Machine Learning YOLOv5 quickstart
 keywords: Ultralytics, YOLO, Deep Learning, Object detection, quickstart, Azure, AzureML
 ---
 
-# YOLOv5 🚀 on AzureML
+# YOLOv5 (rocket_emoji) on AzureML
 
 This guide provides a quickstart to use YOLOv5 from an AzureML compute instance.
 

@@ -4,7 +4,7 @@ description: Object Counting Using Ultralytics YOLOv8
 keywords: Ultralytics, YOLOv8, Object Detection, Object Counting, Object Tracking, Notebook, IPython Kernel, CLI, Python SDK
 ---
 
-# Object Counting using Ultralytics YOLOv8 🚀
+# Object Counting using Ultralytics YOLOv8 (rocket_emoji)
 
 ## What is Object Counting?
 

@@ -1,4 +1,4 @@
-# Contributing to YOLOv8 🚀
+# Contributing to YOLOv8 (rocket_emoji)
 
 We love your input! We want to make contributing to YOLOv8 as easy and transparent as possible, whether it's:
 

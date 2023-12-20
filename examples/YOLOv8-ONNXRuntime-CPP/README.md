@@ -91,7 +91,7 @@ make
 
 6. The built executable should now be located in the `build` directory.
 
-## Usage 🚀
+## Usage (rocket_emoji)
 
 ```c++
 //change your param as you like

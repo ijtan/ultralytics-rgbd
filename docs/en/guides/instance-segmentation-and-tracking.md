@@ -4,7 +4,7 @@ description: Instance Segmentation with Object Tracking using Ultralytics YOLOv8
 keywords: Ultralytics, YOLOv8, Instance Segmentation, Object Detection, Object Tracking, Segbbox, Computer Vision, Notebook, IPython Kernel, CLI, Python SDK
 ---
 
-# Instance Segmentation and Tracking using Ultralytics YOLOv8 🚀
+# Instance Segmentation and Tracking using Ultralytics YOLOv8 (rocket_emoji)
 
 ## What is Instance Segmentation?
 

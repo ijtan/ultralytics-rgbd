@@ -4,7 +4,7 @@ description: Learn how to optimize YOLOv5 with hyperparameter evolution using Ge
 keywords: Ultralytics, YOLOv5, Hyperparameter Optimization, Genetic Algorithm, Machine Learning, Deep Learning, AI, Object Detection, Image Classification, Python
 ---
 
-📚 This guide explains **hyperparameter evolution** for YOLOv5 🚀. Hyperparameter evolution is a method of [Hyperparameter Optimization](https://en.wikipedia.org/wiki/Hyperparameter_optimization) using a [Genetic Algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm) (GA) for optimization.
+📚 This guide explains **hyperparameter evolution** for YOLOv5 (rocket_emoji). Hyperparameter evolution is a method of [Hyperparameter Optimization](https://en.wikipedia.org/wiki/Hyperparameter_optimization) using a [Genetic Algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm) (GA) for optimization.
 
 Hyperparameters in ML control various aspects of training, and finding optimal values for them can be a challenge. Traditional methods like grid searches can quickly become intractable due to 1) the high dimensional search space 2) unknown correlations among the dimensions, and 3) expensive nature of evaluating the fitness at each point, making GA a suitable candidate for hyperparameter searches.
 
@@ -23,7 +23,7 @@ pip install -r requirements.txt  # install
 YOLOv5 has about 30 hyperparameters used for various training settings. These are defined in `*.yaml` files in the `/data/hyps` directory. Better initial guesses will produce better final results, so it is important to initialize these values properly before evolving. If in doubt, simply use the default values, which are optimized for YOLOv5 COCO training from scratch.
 
 ```yaml
-# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+# YOLOv5 (rocket_emoji) by Ultralytics, AGPL-3.0 license
 # Hyperparameters for low-augmentation COCO training from scratch
 # python train.py --batch 64 --cfg yolov5n6.yaml --weights '' --data coco.yaml --img 640 --epochs 300 --linear
 # See tutorials for hyperparameter evolution https://github.com/ultralytics/yolov5#tutorials

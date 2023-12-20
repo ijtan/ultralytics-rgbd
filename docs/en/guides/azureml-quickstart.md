@@ -4,7 +4,7 @@ description: Step-by-step Quickstart Guide to Running YOLOv8 Object Detection Mo
 keywords: Ultralytics, YOLOv8, Object Detection, Azure Machine Learning, Quickstart Guide, Prototype, Compute Instance, Terminal, Notebook, IPython Kernel, CLI, Python SDK
 ---
 
-# YOLOv8 🚀 on AzureML
+# YOLOv8 (rocket_emoji) on AzureML
 
 ## What is Azure?
 

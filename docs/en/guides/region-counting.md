@@ -4,7 +4,7 @@ description: Object Counting in Different Region using Ultralytics YOLOv8
 keywords: Ultralytics, YOLOv8, Object Detection, Object Counting, Object Tracking, Notebook, IPython Kernel, CLI, Python SDK
 ---
 
-# Object Counting in Different Regions using Ultralytics YOLOv8 🚀
+# Object Counting in Different Regions using Ultralytics YOLOv8 (rocket_emoji)
 
 ## What is Object Counting in Regions?
 

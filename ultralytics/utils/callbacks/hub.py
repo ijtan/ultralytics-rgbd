@@ -1,4 +1,4 @@
-# Ultralytics YOLO 🚀, AGPL-3.0 license
+# Ultralytics YOLO (rocket_emoji), AGPL-3.0 license
 
 import json
 from time import time
@@ -12,7 +12,7 @@ def on_pretrain_routine_end(trainer):
     session = getattr(trainer, 'hub_session', None)
     if session:
         # Start timer for upload rate limit
-        LOGGER.info(f'{PREFIX}View model at {HUB_WEB_ROOT}/models/{session.model_id} 🚀')
+        LOGGER.info(f'{PREFIX}View model at {HUB_WEB_ROOT}/models/{session.model_id} (rocket_emoji)')
         session.timers = {'metrics': time(), 'ckpt': time()}  # start timer on session.rate_limit
 
 
@@ -53,7 +53,7 @@ def on_train_end(trainer):
         session.upload_model(trainer.epoch, trainer.best, map=trainer.metrics.get('metrics/mAP50-95(B)', 0), final=True)
         session.alive = False  # stop heartbeats
         LOGGER.info(f'{PREFIX}Done ✅\n'
-                    f'{PREFIX}View model at {HUB_WEB_ROOT}/models/{session.model_id} 🚀')
+                    f'{PREFIX}View model at {HUB_WEB_ROOT}/models/{session.model_id} (rocket_emoji)')
 
 
 def on_train_start(trainer):

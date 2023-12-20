@@ -21,7 +21,7 @@ Aquí están algunos de los modelos clave soportados:
 3. **[YOLOv5](yolov5.md)**: Una versión mejorada de la arquitectura YOLO por Ultralytics, ofreciendo un mejor rendimiento y compromiso de velocidad comparado con versiones anteriores.
 4. **[YOLOv6](yolov6.md)**: Lanzado por [Meituan](https://about.meituan.com/) en 2022, y utilizado en muchos de los robots de entrega autónomos de la compañía.
 5. **[YOLOv7](yolov7.md)**: Modelos YOLO actualizados lanzados en 2022 por los autores de YOLOv4.
-6. **[YOLOv8](yolov8.md) NUEVO 🚀**: La última versión de la familia YOLO, con capacidades mejoradas como segmentación de instancias, estimación de posturas/puntos clave y clasificación.
+6. **[YOLOv8](yolov8.md) NUEVO (rocket_emoji)**: La última versión de la familia YOLO, con capacidades mejoradas como segmentación de instancias, estimación de posturas/puntos clave y clasificación.
 7. **[Modelo Segment Anything (SAM)](sam.md)**: Modelo Segment Anything (SAM) de Meta.
 8. **[Mobile Segment Anything Model (MobileSAM)](mobile-sam.md)**: MobileSAM para aplicaciones móviles, por la Universidad de Kyung Hee.
 9. **[Fast Segment Anything Model (FastSAM)](fast-sam.md)**: FastSAM por el Grupo de Análisis de Imagen y Video, Instituto de Automatización, Academia China de Ciencias.

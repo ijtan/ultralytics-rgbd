@@ -22,7 +22,7 @@ keywords: YOLOv5, object detection, computer vision, CUDA, PyTorch tutorial, mul
 <br>
 <br>
 
-Welcome to the Ultralytics' <a href="https://github.com/ultralytics/yolov5">YOLOv5</a>🚀 Documentation! YOLOv5, the fifth iteration of the revolutionary "You Only Look Once" object detection model, is designed to deliver high-speed, high-accuracy results in real-time.
+Welcome to the Ultralytics' <a href="https://github.com/ultralytics/yolov5">YOLOv5</a>(rocket_emoji) Documentation! YOLOv5, the fifth iteration of the revolutionary "You Only Look Once" object detection model, is designed to deliver high-speed, high-accuracy results in real-time.
 <br><br>
 Built on PyTorch, this powerful deep learning framework has garnered immense popularity for its versatility, ease of use, and high performance. Our documentation guides you through the installation process, explains the architectural nuances of the model, showcases various use-cases, and provides a series of detailed tutorials. These resources will help you harness the full potential of YOLOv5 for your computer vision projects. Let's get started!
 
@@ -32,11 +32,11 @@ Built on PyTorch, this powerful deep learning framework has garnered immense pop
 
 Here's a compilation of comprehensive tutorials that will guide you through different aspects of YOLOv5.
 
-* [Train Custom Data](tutorials/train_custom_data.md) 🚀 RECOMMENDED: Learn how to train the YOLOv5 model on your custom dataset.
+* [Train Custom Data](tutorials/train_custom_data.md) (rocket_emoji) RECOMMENDED: Learn how to train the YOLOv5 model on your custom dataset.
 * [Tips for Best Training Results](tutorials/tips_for_best_training_results.md) ☘️: Uncover practical tips to optimize your model training process.
 * [Multi-GPU Training](tutorials/multi_gpu_training.md): Understand how to leverage multiple GPUs to expedite your training.
 * [PyTorch Hub](tutorials/pytorch_hub_model_loading.md) 🌟 NEW: Learn to load pre-trained models via PyTorch Hub.
-* [TFLite, ONNX, CoreML, TensorRT Export](tutorials/model_export.md) 🚀: Understand how to export your model to different formats.
+* [TFLite, ONNX, CoreML, TensorRT Export](tutorials/model_export.md) (rocket_emoji): Understand how to export your model to different formats.
 * [NVIDIA Jetson platform Deployment](tutorials/running_on_jetson_nano.md) 🌟 NEW: Learn how to deploy your YOLOv5 model on NVIDIA Jetson platform.
 * [Test-Time Augmentation (TTA)](tutorials/test_time_augmentation.md): Explore how to use TTA to improve your model's prediction accuracy.
 * [Model Ensembling](tutorials/model_ensembling.md): Learn the strategy of combining multiple models for improved performance.
@@ -88,4 +88,4 @@ Your journey with YOLOv5 doesn't have to be a solitary one. Join our vibrant com
 
 Interested in contributing? We welcome contributions of all forms; from code improvements and bug reports to documentation updates. Check out our [contributing guidelines](https://github.com/ultralytics/yolov5/blob/master/CONTRIBUTING.md) for more information.
 
-We're excited to see the innovative ways you'll use YOLOv5. Dive in, experiment, and revolutionize your computer vision projects! 🚀
+We're excited to see the innovative ways you'll use YOLOv5. Dive in, experiment, and revolutionize your computer vision projects! (rocket_emoji)

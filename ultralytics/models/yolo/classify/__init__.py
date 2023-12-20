@@ -1,4 +1,4 @@
-# Ultralytics YOLO 🚀, AGPL-3.0 license
+# Ultralytics YOLO (rocket_emoji), AGPL-3.0 license
 
 from ultralytics.models.yolo.classify.predict import ClassificationPredictor
 from ultralytics.models.yolo.classify.train import ClassificationTrainer
